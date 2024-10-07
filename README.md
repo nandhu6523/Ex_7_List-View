@@ -24,7 +24,7 @@ Step 7: Save and run the application.
 /* Program to print the list of item. Developed by: Nandhini S
                                       Registeration Number : 212222220028 */
 ## ACTIVITY_MAIN.XML
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -39,9 +39,9 @@ Step 7: Save and run the application.
         android:layout_height="fill_parent"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
-
+```
 ## MYLIST.XML
-
+```
 <?xml version="1.0" encoding="utf-8"?>
 
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
@@ -56,9 +56,9 @@ android:layout_marginTop="5dp"
 android:padding="2dp"
 android:textColor="#4d4d4d"
     />
-
+```
 ## STRINGS.XML
-
+```
 <resources>
     <string name="app_name">ListView</string>
     <string-array name="array_technology">
@@ -76,9 +76,9 @@ android:textColor="#4d4d4d"
         <item>Perl</item>
     </string-array>
 </resources>
-
+```
 ## MAINACTIVITY.JAVA
-
+```
 package com.example.ex_7_listview;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
-
+```
 OUTPUT
 
 Screenshot 2024-10-05 140526
